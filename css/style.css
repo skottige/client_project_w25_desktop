@@ -1,0 +1,631 @@
+/* All Pages */
+  
+* {
+    font-family: 'Montserrat', 'Nunito Sans', 'Merriweather', 'Arial';
+}
+
+.skip {
+    position: fixed;
+    top: -50px;
+    height: 30px;
+    background-color: white;
+    color: #00274C;
+    align-content: center;
+    z-index: 1001;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.skip:focus {
+    top: 15px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #00274C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 1000;
+}
+  
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 46px;
+}
+
+.nav > ul {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.nav a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    color: #FFCB05;
+}
+
+.nav a.active {
+    color: #FFCB05;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #00274C;
+}
+
+.hero img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #00274C;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.125rem;
+    color: #00274C;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #00274C;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.25;
+    color: black;
+    margin-top: 5px;
+}
+
+li {
+    line-height: 1.25;
+}
+
+footer {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #00274C;
+    padding: 10px;
+    color: white;
+}
+
+.footer-logo {
+    width: 60px;
+}
+
+footer p {
+    color: white;
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+}
+
+.newsletter {
+    grid-column: span 2;
+}
+
+.newsletter h3 {
+    color: #FFCB05;
+}
+
+.four-o-four-footer {
+    position: fixed;
+    bottom: 0;
+}
+
+br {
+    margin-top: 15px;
+}
+
+/* Home Page */
+
+.navigator {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.home-img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.tutoring-options {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.social-wellbeing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+}
+
+.physical-health {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+}
+
+.mental-health {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+}
+
+.life-outside-classroom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.life-outside-classroom article:last-child {
+    grid-column: span 2;
+}
+
+.colored {
+    margin-top: 20px;
+    background-color: #FFCB05;
+    padding: 10px;
+}
+
+.colored h2 {
+    margin-top: 0px;
+}
+
+/* Tutoring Page */
+
+.tutoring {
+    background-color: #00274C;
+    color: white;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.tutoring h3, h4 {
+    color: #FFCB05;
+    margin-top: 20px;
+}
+
+.tutoring  a {
+    color: white;
+}
+
+.tutoring img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.tutoring ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.tutoring li {
+    margin-top: 2px;
+}
+
+.math {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.additional {
+    margin-top: 30px;
+}
+
+.support {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.support p {
+    margin-top: 10px;
+}
+
+.support img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.support ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    list-style: disc;
+}
+
+.learn-more {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.learn-more-button {
+    margin-top: 20px;
+    background-color: #FFCB05;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.learn-more-button:hover {
+    background-color: #00274C;
+    color: white;
+}
+
+/* First Gen */
+
+.fg-img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.events {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #00274C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.events h3 {
+    color: #FFCB05;
+}
+
+.events p {
+    color: white;
+    margin-top: 10px;
+}
+
+.events img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.register {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.register-button {
+    margin-top: 20px;
+    background-color: #FFCB05;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.register-button:hover {
+    background-color: #989C97;
+    color: black;
+}
+
+
+.gateway {
+    margin-left: 30px;
+    list-style: disc;
+}
+
+.info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 10px;
+    list-style: none;
+}
+
+.info p:first-child {
+    grid-column: span 2;
+}
+
+/* Maize and Blue Page */
+
+.services {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #00274C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.services h3 {
+    color: #FFCB05;
+    padding: 10px;
+}
+
+.services ul {
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    list-style: disc;
+}
+
+.mb-img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.timings {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.appointment {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.appointment-button {
+    margin-top: 10px;
+    background-color: #FFCB05;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.appointment-button:hover {
+    background-color: #00274C;
+    color: white;
+}
+
+.help {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.help li:last-child {
+    margin-top: 10px;
+    grid-column: span 2;
+}
+
+@media (min-width: 850px) {
+
+    footer {
+        height: 120px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .newsletter {
+        grid-column-start: 3;
+    }
+
+    /* Home */
+
+    .home-first-section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .academic-resources {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        column-gap: 20px;
+    }
+
+    .tutoring-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .mental-health-parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        column-gap: 20px;
+    }
+    
+    .life-outside-classroom-parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        column-gap: 20px;
+    }
+
+    /* Tutoring Page */
+
+    .tutoring-first-section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .tutoring {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;;
+        column-gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .math {
+        margin-top: 0px;
+    }
+
+    .support {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* First Gen */
+
+    .fg-first-section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .fg-second-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .fg-last-section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .info {
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .info p:first-child {
+        grid-column: span 1;
+    }
+
+    /* Maize and Blue Page */
+
+    .mb-first-section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .services {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    .visit {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .help {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    .help li:last-child {
+        grid-column-start: 3;
+    }
+
+    .mb-help {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+}
