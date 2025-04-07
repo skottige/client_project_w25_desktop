@@ -149,7 +149,7 @@ footer a {
     grid-column: span 2;
 }
 
-.newsletter h3 {
+.newsletter h2 {
     color: #FFCB05;
 }
 
@@ -479,6 +479,8 @@ br {
 }
 
 @media (min-width: 850px) {
+
+    /* All Pages */
 
     footer {
         height: 120px;
